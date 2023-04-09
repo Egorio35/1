@@ -1,16 +1,16 @@
-# This is a sample Python script.
+n = int(input("введите кол--во учеников: "))
+count = 0
+count_T = 0
+if 1 <= n <= 30:
+    for i in range(n):
+        N = int(input("введите кол--во решённых заданий: "))
+        if 5 > N:
+            count += 1
+        if N == 10:
+            count_T += 1
+print(count)
+if count_T > 0:
+    print("YES")
+elif count_T == 0:
+    print("NO")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
